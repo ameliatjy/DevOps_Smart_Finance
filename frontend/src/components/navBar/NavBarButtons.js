@@ -10,6 +10,9 @@ const NavBarButtons = () => {
     <Nav className="ml-auto">
       {isLoggedIn ? (
         <>
+          <Nav.Link as={Link} to="/dashboard">
+            Dashboard
+          </Nav.Link>
           <Nav.Link as={Link} to="/accounts">
             Accounts
           </Nav.Link>
