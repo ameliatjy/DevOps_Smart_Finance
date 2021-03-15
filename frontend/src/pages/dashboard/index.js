@@ -4,7 +4,6 @@ import { Button, Form } from "react-bootstrap";
 
 const Dashboard = () => {
   const [tab, setTab] = useState("Expenses");
-  console.log(tab);
 
   const changeTab = (selectedTab) => {
     if (selectedTab != tab) {
